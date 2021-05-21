@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>DnD</title>
+{% endblock %}
+
+{% block title %}
+START GAME
+{% endblock %}
+
+{% block body %}
+<header class="bg-light header_7">
+    <div class="container px-xl-0 relative text-center text-md-left">
+        <div>
+            <h1>Welcome to DnD Flask</h1>
+            <div>
+                <div>
+                    Play a Mini dungeons and dragons game
+                </div>
+            </div>
+            <div class="d-block">
+                <a href="/setup" class="btn btn-info btn-lg">Setup your campaign</a>
+                <a href="/fight" class="btn btn-danger btn-lg">Play Campaign</a>
+                <a href="/inv" class="btn btn-warning btn-lg">Manage Inventory</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</header>
+{% endblock %}
