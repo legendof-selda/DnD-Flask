@@ -1,5 +1,7 @@
 from app import db
 
+#db = DB.get_db()
+
 
 class Team(db.Model):
     id = db.Column("team_id", db.Integer, primary_key=True, auto_increment=True)
